@@ -21,8 +21,8 @@ code {
     monospace;
 }
 
-.containeria {
-  background-color: aquamarine;
+#containeria {
+  background-color: powderblue;
   height: 100vh;
   width: 100vw;
   display: flex;
@@ -33,10 +33,10 @@ code {
   cursor: pointer;
   color: white;
   overflow: hidden;
-  flex: 0.2;
+  flex: 0.3;
   position: relative;
   transition: flex 0.7s ease-in-out;
-  width: 100%
+  width: 100%;
 }
 
 .panel.active {
@@ -46,7 +46,6 @@ code {
 .fill {
   height: 100vh;
   min-height: 100vh;
-  background: #D9D9D9;
   padding: 0;
 }
 
@@ -54,18 +53,24 @@ code {
   height: 100vh;
   margin: 0;
   padding: 0;
+  animation: none;
 }
 
 .side1 {
-  background: #737373;
+  background: #D9D9D9;
+  width: -webkit-fill-available;
 }
 
 .side2 {
-  background: #f2f2f2;
+  background: #737373;
+  /* margin-left: 50%; */
+  width: -webkit-fill-available;
 }
+
 
 .side3 {
   background: #404040;
+  width: -webkit-fill-available;
 }
 
 .sidetext {
@@ -76,7 +81,7 @@ code {
   font-size: 20px;
   line-height: 24px;
   white-space: nowrap;
-  margin-top: 68vh;
+  animation: none;
 }
 
 .header {
@@ -87,7 +92,7 @@ code {
   font-size: 48px;
   line-height: 48px;
   text-align: center;
-
+  
   color: #404040;
 }
 
