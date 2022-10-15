@@ -1,0 +1,71 @@
+.panel {
+    height: 100vh;
+    cursor: pointer;
+    color: black;
+    flex: 0.2;
+    position: relative;
+    transition: flex 0.7s ease-in-out;
+  }
+  
+  .panel.active {
+    flex: 9;
+  }
+  
+  .fill {
+    height: 100vh;
+    min-height: 100vh;
+    background: #D9D9D9;
+    padding: 0;
+  }
+  
+  .sides {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .side1 {
+    background: #f2f2f2;
+  }
+  
+  .side2 {
+    background: #737373;
+  }
+  
+  .side3 {
+    background: #404040;
+  }
+  
+  .sidetext {
+    transform: rotate(90deg);
+    font-family: 'mono45-Headline';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    white-space: nowrap;
+    margin-top: 68vh;
+  }
+  
+  .header {
+    margin-top: 40vh;
+    font-family: 'Mono45-Headline';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+  
+    color: #404040;
+  }
+  
+  .stats {
+    font-family: 'Mono45-Headline';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 128px;
+    line-height: 128px;
+    text-align: center;
+    
+    color: #404040;
+  }
